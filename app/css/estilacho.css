@@ -1,0 +1,79 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: #700505 ;    
+    font-weight: bold;
+}
+
+.mifoto {
+    border-radius: 10px;
+    margin:10px;   
+}
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: wait;
+}
+
+.loader {
+    width: 120px;
+    height: 120px;
+    /* animation: spin 2s linear infinite; */
+}
+
+#Contenido {
+    position: relative;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    overflow: hidden;
+    padding: 0px;
+}
+#ElTitulo {
+    color: #700505;
+    font-weight: bold;
+
+}
+
+#ElTitulo {
+    color: #700505;
+    font-weight: bold;
+    font-size: 5vw; /* Tamaño del texto ajustado al ancho del viewport */
+}
+
+/* Tamaño de texto para móviles */
+@media (max-width: 767px) {
+    #ElTitulo {
+        font-size: 5vw; /* Ajuste específico para móviles */
+    }
+}
+
+/* Tamaño de texto para tabletas */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #ElTitulo {
+        font-size: 3vw; /* Ajuste específico para tabletas */
+    }
+}
+
+/* Tamaño de texto para escritorios */
+@media (min-width: 1024px) {
+    #ElTitulo {
+        font-size: 2vw; /* Ajuste específico para escritorios */
+    }
+}

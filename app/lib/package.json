@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "emojionearea": "^3.0.0",
+    "html2pdf.js": "^0.10.1"
+  }
+}
